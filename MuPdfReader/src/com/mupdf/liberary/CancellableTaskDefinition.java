@@ -1,4 +1,4 @@
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
 public interface CancellableTaskDefinition <Params, Result>
 {

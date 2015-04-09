@@ -1,4 +1,4 @@
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -10,9 +10,12 @@ import android.util.Base64;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
-import com.example.mupdfsample.R;
+
+import com.mupdf.activities.R;
+
 
 public class PrintDialogActivity extends Activity {
 	private static final String PRINT_DIALOG_URL = "https://www.google.com/cloudprint/dialog.html";

@@ -19,12 +19,12 @@
  * limitations under the License.
  */
 
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.mupdfsample.R;
+import com.mupdf.activities.R;
 
 import android.annotation.TargetApi;
 import android.content.Context;

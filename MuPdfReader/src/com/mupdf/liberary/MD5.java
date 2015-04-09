@@ -1,4 +1,4 @@
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
 import java.io.*;
 import java.math.BigInteger;

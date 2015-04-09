@@ -1,4 +1,4 @@
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
 import android.graphics.PointF;
 import android.graphics.RectF;

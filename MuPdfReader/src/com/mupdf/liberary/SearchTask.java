@@ -1,6 +1,8 @@
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
-import com.example.mupdfsample.R;
+
+
+import com.mupdf.activities.R;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;

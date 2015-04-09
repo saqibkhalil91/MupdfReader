@@ -1,4 +1,4 @@
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
 public class LinkInfoInternal extends LinkInfo {
 	final public int pageNumber;

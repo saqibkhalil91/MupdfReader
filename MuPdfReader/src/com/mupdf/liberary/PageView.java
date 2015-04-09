@@ -1,4 +1,4 @@
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,7 +14,9 @@ import android.widget.ProgressBar;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.example.mupdfsample.R;
+import com.mupdf.activities.R;
+
+
 /*
 class PatchInfo {
 	//public BitmapHolder bmh;

@@ -1,4 +1,4 @@
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -39,12 +39,12 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.ViewAnimator;
 
-import com.artifex.mupdflib.CallbackApplication.MuPDFCallbackClass;
-import com.artifex.mupdflib.TwoWayView.Orientation;
-import com.example.mupdfsample.BookMarkList;
-import com.example.mupdfsample.R;
+import com.mupdf.activities.BookMarkList;
+import com.mupdf.activities.R;
 import com.mupdf.databases.DbHandler;
 import com.mupdf.entity.BookMark;
+import com.mupdf.liberary.CallbackApplication.MuPDFCallbackClass;
+import com.mupdf.liberary.TwoWayView.Orientation;
 
 //import android.text.method.PasswordTransformationMethod;
 //import android.widget.SeekBar;

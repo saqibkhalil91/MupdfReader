@@ -3,7 +3,7 @@
  * as explained at http://creativecommons.org/publicdomain/zero/1.0/.
  */
 
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
 import java.util.*;
 

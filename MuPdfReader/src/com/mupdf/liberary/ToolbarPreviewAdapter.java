@@ -1,4 +1,4 @@
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -20,7 +20,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.lang.ref.WeakReference;
 
-import com.example.mupdfsample.R;
+import com.mupdf.activities.R;
+
+
 
 public class ToolbarPreviewAdapter extends BaseAdapter {
 

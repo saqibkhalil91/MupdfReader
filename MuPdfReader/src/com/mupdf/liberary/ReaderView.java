@@ -1,4 +1,4 @@
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
 import android.content.Context;
 import android.graphics.Point;
@@ -16,7 +16,9 @@ import android.widget.Scroller;
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
 
-import com.example.mupdfsample.R;
+import com.mupdf.activities.R;
+
+
 
 public class ReaderView extends AdapterView<Adapter> implements GestureDetector.OnGestureListener,
 		GestureDetector.OnDoubleTapListener, ScaleGestureDetector.OnScaleGestureListener, Runnable {

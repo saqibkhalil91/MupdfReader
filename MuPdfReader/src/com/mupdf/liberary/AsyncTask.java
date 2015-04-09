@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
 import android.os.Handler;
 import android.os.Message;

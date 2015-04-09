@@ -1,4 +1,4 @@
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
 import android.content.Context;
 import android.graphics.*;
@@ -8,7 +8,9 @@ import android.util.Log;
 import java.io.File;
 import java.util.ArrayList;
 
-import com.example.mupdfsample.R;
+import com.mupdf.activities.R;
+
+
 
 public class MuPDFCore {
 	/* load our native library */

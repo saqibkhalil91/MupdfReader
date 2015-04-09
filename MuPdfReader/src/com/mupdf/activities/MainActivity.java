@@ -1,4 +1,4 @@
-package com.example.mupdfsample;
+package com.mupdf.activities;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -15,7 +15,6 @@ import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.ImageView;
 
 public class MainActivity extends Activity implements OnClickListener {
@@ -50,7 +49,7 @@ public class MainActivity extends Activity implements OnClickListener {
 			Uri uri = Uri.parse(fi.getAbsolutePath());
 			
 			//Uri uri = Uri.parse("file:///android_asset/" + TEST_FILE_NAME);
-			Intent intent = new Intent(this, com.artifex.mupdflib.MuPDFActivity.class);//com.artifex.mupdflib.MuPDFActivity.class
+			Intent intent = new Intent(this, com.mupdf.liberary.MuPDFActivity.class);//com.artifex.mupdflib.MuPDFActivity.class
 			intent.setAction(Intent.ACTION_VIEW);
 			intent.setData(uri);
 			

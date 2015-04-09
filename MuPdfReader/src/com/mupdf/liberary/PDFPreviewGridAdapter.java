@@ -1,4 +1,4 @@
-package com.artifex.mupdflib;
+package com.mupdf.liberary;
 
 import android.app.Activity;
 import android.content.Context;
@@ -23,7 +23,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.lang.ref.WeakReference;
 
-import com.example.mupdfsample.R;
+import com.mupdf.activities.R;
+
 
 public class PDFPreviewGridAdapter extends BaseAdapter {
 
