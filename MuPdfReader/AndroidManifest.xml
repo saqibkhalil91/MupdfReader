@@ -25,22 +25,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.mupdflib.liberary.MuPDFActivity"
+            android:name="com.mupdf.liberary.MuPDFActivity"
             android:label="mupdflib"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
         <activity
-            android:name="com.mupdflib.liberary.PrintDialogActivity"
+            android:name="com.mupdf.liberary.PrintDialogActivity"
             android:label="@string/print"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
         <activity
-            android:name="com.mupdflib.liberary.PDFPreviewGridActivity"
+            android:name="com.mupdf.liberary.PDFPreviewGridActivity"
             android:label="preview label"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
         <activity
-            android:name="com.mupdf.activities.BookMarkList"
+            android:name="com.mupdf.adopter"
             android:label="@string/title_activity_book_mark_list" >
         </activity>
     </application>

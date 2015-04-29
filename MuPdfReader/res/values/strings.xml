@@ -57,5 +57,6 @@
     <string name="title_activity_book_mark_list">BookMarkList</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    
 
 </resources>

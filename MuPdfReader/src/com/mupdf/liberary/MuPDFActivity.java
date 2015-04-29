@@ -39,7 +39,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.ViewAnimator;
 
-import com.mupdf.activities.BookMarkList;
+import com.mupdf.adopter.*;
 import com.mupdf.activities.R;
 import com.mupdf.databases.DbHandler;
 import com.mupdf.entity.BookMark;
@@ -445,13 +445,17 @@ public class MuPDFActivity extends Activity implements FilePicker.FilePickerSupp
 				SearchTaskResult.set(null);
 				if (core.countPages() == 0)
 					core = null;
-			}
+			}try{
 			if (core != null && core.needsPassword()) {
 				// requestPassword(savedInstanceState);
 				// required password getteris from data
 				String password = intent.getStringExtra("password");
 				core.authenticatePassword(password);
 				// return;
+			}
+			}catch (Exception e) {
+				// TODO: handle exception
+				e.getMessage();
 			}
 			if (core != null && core.countPages() == 0)
 			{
